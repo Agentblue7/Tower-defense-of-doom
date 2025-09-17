@@ -57,17 +57,17 @@ elke wave komen er moeilijkere enemys met meer health en damage waardan uiteinde
 
 
 9. Risico’s en oplossingen volgens PIO
-Probleem 1:
+Probleem 1: kogels van de tower doet geen damage
 
-Impact:
+Impact: groot
 
-Oplossing:
+Oplossing: hitboxes checken en eventueel fixen
 
-Probleem 2:
+Probleem 2: Je kan towers kopen al heb je niet genoeg geld
 
-Impact:
+Impact: groot
 
-Oplossing:
+Oplossing: Ik check de code voor fouten of herschrijf ze
 
 Probleem 3:
 
@@ -91,7 +91,7 @@ Sprint 5 mechanics:
 
 
 10. Inspiratie
-Noem een bestaande tower defense game die jou inspireert en wat je daarvan meeneemt of juist vermijdt.
+ik heb niet echt een inspiratie persee maar ik vind bloons td systeem heel erg leuk
 
 
 
