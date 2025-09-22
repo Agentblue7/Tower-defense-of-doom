@@ -47,9 +47,9 @@ Eventuele extra vijanden:
 
 6. Gameplay loop
 
-1. koop torens
-2. versla vijanden
-3. krijg meer geld
+  1. koop torens
+  2. versla vijanden
+  3. krijg meer geld
 
 7. Progressie
 elke wave komen er moeilijkere enemys met meer health en damage waardan uiteindelijk de boss komt.
@@ -69,24 +69,24 @@ Impact: groot
 
 Oplossing: Ik check de code voor fouten of herschrijf ze
 
-Probleem 3:
+Probleem 3: Ui misaligned
 
-Impact:
+Impact: klein
 
-Oplossing:
+Oplossing: ik probeer het te fixen
 
 9. Planning per sprint en mechanics
 Schrijf per sprint welke mechanics jij oplevert in de build. Denk aan voorbeelden zoals vijandbeweging over een pad, torens plaatsen, doel kiezen en schieten, waves starten, UI voor geld en levens, upgrades, jouw unieke feature.
 
-Sprint 1 mechanics:
+Sprint 1 mechanics: Towers schieten
 
-Sprint 2 mechanics:
+Sprint 2 mechanics: Towers kopen
 
-Sprint 3 mechanics:
+Sprint 3 mechanics: enemy's 
 
-Sprint 4 mechanics:
+Sprint 4 mechanics: wave system
 
-Sprint 5 mechanics:
+Sprint 5 mechanics: ui en main menu
 
 
 
@@ -104,28 +104,27 @@ Keuze: Vijanden volgen punten A, B, C en daarna de goal.
 Risico: Een vijand loopt een punt voorbij of blijft hangen.
 Oplossing: Als de vijand dichtbij genoeg is kiest hij het volgende punt. Bij de goal gaat één leven omlaag en verdwijnt de vijand.
 Acceptatie: Tien vijanden lopen van start naar de goal zonder vastlopers en verbruiken elk één leven. Alle tien vijanden bereiken achtereenvolgens elk waypoint binnen één seconde na elkaar.
-11.1 Vijandbeweging over het pad
-Keuze:
-Risico:
-Oplossing:
-Acceptatie:
+
 11.2 Doel kiezen en schieten
-Keuze:
-Risico:
-Oplossing:
-Acceptatie:
+Keuze: Torens schieten de eerste enemy die in range komt en houden dat totdat de enemy uit de range loopt of dood is.
+Risico: De torens gaan na de eerste enemy niet verder met een andere schieten
+Oplossing: alle torens moeten alle enemys in range schieten maar moeten de gene die ze schieten vasthouden
+Acceptatie: de torens schieten en volgen de enemy zonder te blijven haken aan de verkeerde.
+
 11.3 Waves en spawnen
-Keuze:
-Risico:
-Oplossing:
-Acceptatie:
+Keuze: Nadat de alle set enemy's dood zijn gaat na een hoeveelheid tijd een andere wave beginnen met een hoeveelheid sterkere enemy's
+Risico: Het gaat niet verder naar een andere wave
+Oplossing: ik zet een ultieme timer voordat de volgende wave begint
+Acceptatie: Als een wave eindigt krijg je genoeg tijd om torens te kopen voordat de volgende wave begint.
+
 11.4 Economie en levens
-Keuze:
-Risico:
-Oplossing:
-Acceptatie:
+Keuze: elke enemy doet een hoeveelheid damage en geeft een hoeveelheid geld
+Risico: Enemy's doen geen damage
+Oplossing: ik maak dat al de hitboxes
+Acceptatie: als ik enemy's dood maak krijg ik geld voor torens en als dat mij niet lukt krijg ik damage
+
 11.5 UI basis
-Keuze:
-Risico:
-Oplossing:
-Acceptatie:
+Keuze: Ik heb UI design voor: waves, money, towers, health and an main menu.
+Risico: ik ben ass in UI
+Oplossing: ik word goed in UI
+Acceptatie: ik heb een UI
